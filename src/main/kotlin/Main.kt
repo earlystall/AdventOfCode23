@@ -1,4 +1,4 @@
 fun main() {
-    val res = Day2("src/main/resources/day2/part1.txt")
-    println("Part 1 = " + res.returnRes())
+    val res = Day3("src/main/resources/day3/part1.txt")
+    println("Part 2 = " + res.returnResPart2())
 }

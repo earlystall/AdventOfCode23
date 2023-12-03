@@ -3,11 +3,11 @@ import kotlin.test.assertEquals
 
 
 class Testing {
-    private val part1 : Day2 = Day2("src/main/resources/day2/part1test.txt")
+    private val part1 : Day3 = Day3("src/main/resources/day3/part1test.txt")
 
     @Test
     fun testSample() {
-        assertEquals(2286, part1.returnRes())
+        assertEquals(467835, part1.returnResPart2())
     }
 
 }
